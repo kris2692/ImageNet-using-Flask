@@ -5,7 +5,7 @@ import numpy as np
 from flask import Flask, request, render_template, redirect, url_for, flash
 
 
-#UPLOAD_FOLDER=r"C:\Users\krish\Desktop\flask-demographics\uploads"
+UPLOAD_FOLDER=r"D:\Flask-Image_net\uploads"
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
